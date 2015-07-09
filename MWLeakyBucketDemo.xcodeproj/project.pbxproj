@@ -14,6 +14,7 @@
 		2ECC50131B4F2854006EDADA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ECC50121B4F2854006EDADA /* Images.xcassets */; };
 		2ECC50161B4F2854006EDADA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ECC50141B4F2854006EDADA /* LaunchScreen.xib */; };
 		2ECC50221B4F2854006EDADA /* MWLeakyBucketDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC50211B4F2854006EDADA /* MWLeakyBucketDemoTests.m */; };
+		2ECC502D1B4F289A006EDADA /* MWLeakyBucket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC502C1B4F289A006EDADA /* MWLeakyBucket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2ECC501B1B4F2854006EDADA /* MWLeakyBucketDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MWLeakyBucketDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ECC50201B4F2854006EDADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2ECC50211B4F2854006EDADA /* MWLeakyBucketDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWLeakyBucketDemoTests.m; sourceTree = "<group>"; };
+		2ECC502B1B4F289A006EDADA /* MWLeakyBucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWLeakyBucket.h; sourceTree = "<group>"; };
+		2ECC502C1B4F289A006EDADA /* MWLeakyBucket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWLeakyBucket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				2ECC500A1B4F2854006EDADA /* AppDelegate.m */,
 				2ECC500C1B4F2854006EDADA /* ViewController.h */,
 				2ECC500D1B4F2854006EDADA /* ViewController.m */,
+				2ECC502B1B4F289A006EDADA /* MWLeakyBucket.h */,
+				2ECC502C1B4F289A006EDADA /* MWLeakyBucket.m */,
 				2ECC500F1B4F2854006EDADA /* Main.storyboard */,
 				2ECC50121B4F2854006EDADA /* Images.xcassets */,
 				2ECC50141B4F2854006EDADA /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				2ECC500E1B4F2854006EDADA /* ViewController.m in Sources */,
 				2ECC500B1B4F2854006EDADA /* AppDelegate.m in Sources */,
+				2ECC502D1B4F289A006EDADA /* MWLeakyBucket.m in Sources */,
 				2ECC50081B4F2854006EDADA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,6 +1,6 @@
 //
 //  MWLeakyBucket.m
-//  MWLeakyBuckeyDemo
+//  MWLeakyBucketDemo
 //
 //  Created by Wenzhong Zhang on 2015-07-09.
 //
