@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2ECC50081B4F2854006EDADA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC50071B4F2854006EDADA /* main.m */; };
+		2ECC500B1B4F2854006EDADA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC500A1B4F2854006EDADA /* AppDelegate.m */; };
+		2ECC500E1B4F2854006EDADA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC500D1B4F2854006EDADA /* ViewController.m */; };
+		2ECC50111B4F2854006EDADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ECC500F1B4F2854006EDADA /* Main.storyboard */; };
+		2ECC50131B4F2854006EDADA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ECC50121B4F2854006EDADA /* Images.xcassets */; };
+		2ECC50161B4F2854006EDADA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ECC50141B4F2854006EDADA /* LaunchScreen.xib */; };
+		2ECC50221B4F2854006EDADA /* MWLeakyBucketDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC50211B4F2854006EDADA /* MWLeakyBucketDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2ECC501C1B4F2854006EDADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ECC4FFA1B4F2854006EDADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ECC50011B4F2854006EDADA;
+			remoteInfo = MWLeakyBucketDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2ECC50021B4F2854006EDADA /* MWLeakyBucketDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWLeakyBucketDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ECC50061B4F2854006EDADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ECC50071B4F2854006EDADA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2ECC50091B4F2854006EDADA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2ECC500A1B4F2854006EDADA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2ECC500C1B4F2854006EDADA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2ECC500D1B4F2854006EDADA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2ECC50101B4F2854006EDADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2ECC50121B4F2854006EDADA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2ECC50151B4F2854006EDADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2ECC501B1B4F2854006EDADA /* MWLeakyBucketDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MWLeakyBucketDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ECC50201B4F2854006EDADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ECC50211B4F2854006EDADA /* MWLeakyBucketDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWLeakyBucketDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ECC4FFF1B4F2854006EDADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ECC50181B4F2854006EDADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ECC4FF91B4F2854006EDADA = {
+			isa = PBXGroup;
+			children = (
+				2ECC50041B4F2854006EDADA /* MWLeakyBucketDemo */,
+				2ECC501E1B4F2854006EDADA /* MWLeakyBucketDemoTests */,
+				2ECC50031B4F2854006EDADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ECC50031B4F2854006EDADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ECC50021B4F2854006EDADA /* MWLeakyBucketDemo.app */,
+				2ECC501B1B4F2854006EDADA /* MWLeakyBucketDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ECC50041B4F2854006EDADA /* MWLeakyBucketDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2ECC50091B4F2854006EDADA /* AppDelegate.h */,
+				2ECC500A1B4F2854006EDADA /* AppDelegate.m */,
+				2ECC500C1B4F2854006EDADA /* ViewController.h */,
+				2ECC500D1B4F2854006EDADA /* ViewController.m */,
+				2ECC500F1B4F2854006EDADA /* Main.storyboard */,
+				2ECC50121B4F2854006EDADA /* Images.xcassets */,
+				2ECC50141B4F2854006EDADA /* LaunchScreen.xib */,
+				2ECC50051B4F2854006EDADA /* Supporting Files */,
+			);
+			path = MWLeakyBucketDemo;
+			sourceTree = "<group>";
+		};
+		2ECC50051B4F2854006EDADA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ECC50061B4F2854006EDADA /* Info.plist */,
+				2ECC50071B4F2854006EDADA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2ECC501E1B4F2854006EDADA /* MWLeakyBucketDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2ECC50211B4F2854006EDADA /* MWLeakyBucketDemoTests.m */,
+				2ECC501F1B4F2854006EDADA /* Supporting Files */,
+			);
+			path = MWLeakyBucketDemoTests;
+			sourceTree = "<group>";
+		};
+		2ECC501F1B4F2854006EDADA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ECC50201B4F2854006EDADA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ECC50011B4F2854006EDADA /* MWLeakyBucketDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ECC50251B4F2854006EDADA /* Build configuration list for PBXNativeTarget "MWLeakyBucketDemo" */;
+			buildPhases = (
+				2ECC4FFE1B4F2854006EDADA /* Sources */,
+				2ECC4FFF1B4F2854006EDADA /* Frameworks */,
+				2ECC50001B4F2854006EDADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MWLeakyBucketDemo;
+			productName = MWLeakyBucketDemo;
+			productReference = 2ECC50021B4F2854006EDADA /* MWLeakyBucketDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2ECC501A1B4F2854006EDADA /* MWLeakyBucketDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ECC50281B4F2854006EDADA /* Build configuration list for PBXNativeTarget "MWLeakyBucketDemoTests" */;
+			buildPhases = (
+				2ECC50171B4F2854006EDADA /* Sources */,
+				2ECC50181B4F2854006EDADA /* Frameworks */,
+				2ECC50191B4F2854006EDADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ECC501D1B4F2854006EDADA /* PBXTargetDependency */,
+			);
+			name = MWLeakyBucketDemoTests;
+			productName = MWLeakyBucketDemoTests;
+			productReference = 2ECC501B1B4F2854006EDADA /* MWLeakyBucketDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ECC4FFA1B4F2854006EDADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "MagniWare Ltd.";
+				TargetAttributes = {
+					2ECC50011B4F2854006EDADA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2ECC501A1B4F2854006EDADA = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2ECC50011B4F2854006EDADA;
+					};
+				};
+			};
+			buildConfigurationList = 2ECC4FFD1B4F2854006EDADA /* Build configuration list for PBXProject "MWLeakyBucketDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2ECC4FF91B4F2854006EDADA;
+			productRefGroup = 2ECC50031B4F2854006EDADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ECC50011B4F2854006EDADA /* MWLeakyBucketDemo */,
+				2ECC501A1B4F2854006EDADA /* MWLeakyBucketDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ECC50001B4F2854006EDADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECC50111B4F2854006EDADA /* Main.storyboard in Resources */,
+				2ECC50161B4F2854006EDADA /* LaunchScreen.xib in Resources */,
+				2ECC50131B4F2854006EDADA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ECC50191B4F2854006EDADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ECC4FFE1B4F2854006EDADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECC500E1B4F2854006EDADA /* ViewController.m in Sources */,
+				2ECC500B1B4F2854006EDADA /* AppDelegate.m in Sources */,
+				2ECC50081B4F2854006EDADA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ECC50171B4F2854006EDADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECC50221B4F2854006EDADA /* MWLeakyBucketDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2ECC501D1B4F2854006EDADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ECC50011B4F2854006EDADA /* MWLeakyBucketDemo */;
+			targetProxy = 2ECC501C1B4F2854006EDADA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2ECC500F1B4F2854006EDADA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ECC50101B4F2854006EDADA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2ECC50141B4F2854006EDADA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ECC50151B4F2854006EDADA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2ECC50231B4F2854006EDADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2ECC50241B4F2854006EDADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ECC50261B4F2854006EDADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MWLeakyBucketDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2ECC50271B4F2854006EDADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MWLeakyBucketDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2ECC50291B4F2854006EDADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MWLeakyBucketDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MWLeakyBucketDemo.app/MWLeakyBucketDemo";
+			};
+			name = Debug;
+		};
+		2ECC502A1B4F2854006EDADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MWLeakyBucketDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MWLeakyBucketDemo.app/MWLeakyBucketDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ECC4FFD1B4F2854006EDADA /* Build configuration list for PBXProject "MWLeakyBucketDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECC50231B4F2854006EDADA /* Debug */,
+				2ECC50241B4F2854006EDADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ECC50251B4F2854006EDADA /* Build configuration list for PBXNativeTarget "MWLeakyBucketDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECC50261B4F2854006EDADA /* Debug */,
+				2ECC50271B4F2854006EDADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2ECC50281B4F2854006EDADA /* Build configuration list for PBXNativeTarget "MWLeakyBucketDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECC50291B4F2854006EDADA /* Debug */,
+				2ECC502A1B4F2854006EDADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2ECC4FFA1B4F2854006EDADA /* Project object */;
+}
