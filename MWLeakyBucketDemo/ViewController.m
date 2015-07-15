@@ -23,7 +23,42 @@
     leakybucket = [[MWLeakyBucket alloc] initBucketWithCapacity:30];
     leakybucket.delegate = self;
     leakybucket.sampleRate = @(2);
-    [leakybucket fillBucketWithSamples:@[@(1), @(2), @(3), @(4), @(5), @(6), @(7), @(8), @(9), @(10), @(11), @(12), @(13), @(14), @(15), @(16), @(17), @(18), @(19), @(20), @(21)]];
+    // Note that the bucket is FIFO
+    [leakybucket fillBucketWithSamples:@[@{@"sampleTypeA":@(1)},
+                                         @{@"sampleTypeA":@(2)},
+                                         @{@"sampleTypeA":@(3)},
+                                         @{@"sampleTypeA":@(4)},
+                                         @{@"sampleTypeA":@(5)},
+                                         @{@"sampleTypeA":@(6)},
+                                         @{@"sampleTypeA":@(7)},
+                                         @{@"sampleTypeA":@(8)},
+                                         @{@"sampleTypeA":@(9)},
+                                         @{@"sampleTypeA":@(10)},
+                                         // More key-value pairs can be added.
+                                         @{@"sampleTypeB":@(11),
+                                           @"sampleTypeB":@(11)},
+                                         @{@"sampleTypeB":@(12),
+                                           @"sampleTypeB":@(12)},
+                                         @{@"sampleTypeB":@(13),
+                                           @"sampleTypeB":@(13)},
+                                         @{@"sampleTypeB":@(14),
+                                           @"sampleTypeB":@(14)},
+                                         @{@"sampleTypeB":@(15),
+                                           @"sampleTypeB":@(15)},
+                                         // Funny types
+                                         @{@"horizontal":@(16),
+                                           @"vertical":@(16)},
+                                         @{@"chicken":@(17),
+                                           @"egg":@(17)},
+                                         @{@"x":@(18),
+                                           @"y":@(18)},
+                                         @{@"x":@(19),
+                                           @"y":@(19),
+                                           @"z":@(19)},
+                                         @{@"a":@(20),
+                                           @"b":@(20)},
+                                         @{@"yes":@(21),
+                                           @"no":@(21)}]];
 }
 
 - (void)didReceiveMemoryWarning {

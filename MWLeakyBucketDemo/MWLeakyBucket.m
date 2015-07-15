@@ -61,15 +61,15 @@
     return self;
 }
 
-- (void)fillBucketWithSamples:(NSArray *)samples {
-    [self.bucket addObjectsFromArray:samples];
+- (void)addSampleToBucket:(NSDictionary *)sample {
+    [self.bucket addObject:sample];
     if (!bucketHole) {
         [self drainBucket];
     }
 }
 
-- (void)addSampleToBucket:(NSNumber *)sample {
-    [self.bucket addObject:sample];
+- (void)fillBucketWithSamples:(NSArray *)samples {
+    [self.bucket addObjectsFromArray:samples];
     if (!bucketHole) {
         [self drainBucket];
     }
@@ -105,7 +105,7 @@
  *  Leak sample, notify subscriber of the leaked object.
  */
 - (void)leakSample {
-    NSNumber *sample = [self.bucket lastObject];
+    NSDictionary *sample = [self.bucket lastObject];
     if (sample) {
         [self.bucket removeLastObject];
         [self.delegate bucketDidLeakSample:sample];

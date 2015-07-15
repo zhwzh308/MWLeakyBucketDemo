@@ -37,9 +37,9 @@
 /**
  *  MWLeakyBucketDelegate method to notify delegate that a new sample was leaked by the bucket.
  *
- *  @param sample A NSNumber representation of the sample value.
+ *  @param sample An NSDictionary object which can contain a set of sample values.
  */
-- (void)bucketDidLeakSample: (NSNumber *)sample;
+- (void)bucketDidLeakSample: (NSDictionary *)sample;
 
 @end
 
@@ -75,7 +75,7 @@
  *
  *  @param sample The sample to be added.
  */
-- (void)addSampleToBucket: (NSNumber *)sample;
+- (void)addSampleToBucket: (NSDictionary *)sample;
 
 /**
  *  Add an array of samples to the bucket. (No error checking implemented.
