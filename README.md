@@ -3,7 +3,7 @@
 ## Introduction
 An Objective-C leaky bucket class with variable drain rate for numeric data.
 You can customize the bucket capacity when initializing the object.
-The expected object type in the bucket is `NSNumber`.
+The expected object type in the bucket is `NSDictionary`.
 
 ## Usage
 `MWLeakyBucket` is under MIT License. You can use it to smooth out data from
